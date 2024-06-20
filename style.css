@@ -1,0 +1,30 @@
+body{
+    margin: 0;  
+    padding: 0;
+    background-color: gray;  /*Pintar o fundo*/
+}
+.relogio{
+    border: 2px solid black; /*colocar uma borda em volta do conteudo*/
+    height: 100vh; /*seria pra aumentar o tamanho da borda*/
+    display: flex; /*pra poder alinhar o assunto*/
+    flex-direction: column;/*deixar o assunto em coluna*/
+    align-items: center;/*alinhar o assunto no meio*/
+    justify-content: center;/*centralizar oassunto no centro da tela.*/
+}
+.display{
+    background-color: darkgrey;/*pintar parte desejada*/
+    width: 300px;/*aumentar a parte pintade de cima*/
+    height: 200px;/*aumentar a parte pintade de cima*/
+    text-align: center;/*Alinhar apenas o texto*/
+    line-height: 200px;/*centralizar o texto*/ /*obs: pra centralizar mais "facil", basta colocar a mesma medida que o height*/
+    border-radius: 10px;/*borda redonda*/
+    color: white;/*Pintar as "Horas"*/
+    font-size: 3.5rem;/*Aumentar a letra*/
+    font-family: monospace;/*mudar a letra*/
+    border: 10px solid #2C2E43;/*Colocar borda*/
+}
+footer{
+    font-size: 2rem;
+    margin-top: 10px;
+    color: whitesmoke;
+}
